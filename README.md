@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/cryptoPickle/randomizeusername.svg?branch=build)](https://travis-ci.org/cryptoPickle/randomizeusername)
+
+
 # Random UserName Generator
 
 This simple library can help you to create random cool usernames.
@@ -44,4 +47,4 @@ returns
 ​​​​​  'morty-doozie+Zoe' ]​​​​​
 ```
 
-:)
+:))

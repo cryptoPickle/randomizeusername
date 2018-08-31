@@ -45,5 +45,9 @@ test('Add position beggining', () => {
 
 test('Add random position', () => {
   const result = random({extra: ['test'], position: 'random'});
-  expect(result[0].substring(0,4) || result[0].slice(-4)).toEqual('test')
+  if(result[0].substring(0,4) === 'test'){
+    return expect(result[0].substring(0,4)).toEqual('test');
+  }else{
+    return expect(result[0].slice(-4)).toBe('test')
+  }
 });
