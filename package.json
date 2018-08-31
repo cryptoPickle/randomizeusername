@@ -1,14 +1,19 @@
 {
-  "name": "randomusername",
-  "version": "0.0.1",
+  "name": "randomizeusername",
+  "version": "0.0.2",
   "description": "Very simple random username generator",
-  "main": "index.js",
+  "main": "./src/index.js",
   "author": "Halil Irmak",
   "license": "MIT",
+  "repository": "https://github.com/cryptoPickle/randomizeusername",
+  "scripts": {
+    "build": "NODE_ENV=production babel src -s -D -d dist"
+  },
   "dependencies": {
     "cat-names": "^1.0.2",
     "dog-names": "^1.0.2",
     "pokemon": "^1.2.3",
+    "randomizeusername": "^0.0.1",
     "slugify": "^1.3.1",
     "superb": "^3.0.0",
     "superheroes": "^2.0.0"
