@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "cat-names": "^1.0.2",
-    "dog-names": "^1.0.2",
+    "dog-names": "^2.0.0",
     "jest": "^23.5.0",
     "pokemon": "^1.2.3",
     "randomizeusername": "^0.0.1",
