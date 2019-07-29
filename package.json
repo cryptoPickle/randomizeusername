@@ -11,7 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "cat-names": "^1.0.2",
+    "cat-names": "^3.0.0",
     "dog-names": "^1.0.2",
     "jest": "^23.5.0",
     "pokemon": "^1.2.3",
